@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#stylish{
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url(/);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#stylish .box-text {
+    text-align: center;
+    padding-top: 15%;
+}
+
+#stylish .box-text p{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+#stylish .box-text h1{
+    padding-top: 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#stylish .box-text a{
+    margin-top: 45px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1D809F;
+    padding: 20px 15px;
+    font-size: 17px;
+    color: azure;
+    border: 10px;
+    border-radius: 10px;
+    font-style: unset ;
+    transition: 0.3s;
+}
+
+#stylish .box-text a:hover{
+    background-color: #17657d;
+}
+
+#style {
+    padding-top: 6rem 0;
+}
+
+#style .box-text{ 
+    text-align: center;
+}
+
+#style .box-text h2{
+   padding-top: 4%;
+   font-size: 2rem;
+   font-weight: bold;
+   margin-bottom: 8px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+#style .box-text p{
+    margin-top: 8px;
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: 30;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.5;
+}
+
+#style .box-text .btn1{
+    color: purple;
+    font-weight: 1px;
+    background-size: 2px;
+}
+
+#style .box-text a{
+    padding: 20px 15px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 3%;
+}
+
+#style .box-text .btn2{
+    color: white;
+    text-decoration: none;
+    margin-top: 35px;
+    display :inline-block;
+    transition: 0.3s;
+    margin-bottom:6%;
+    font-size: 20px;
+}
+
+#style .box-text .btn2:hover{
+    margin-top: 35px;
+}
+
+#stil{
+    padding: 7rem 0;
+    background-color: #1D809F;
+}
+
+#stil .box-test{
+  text-align: center;
+} 
+ 
+#stil .box-test span{
+   color: yellow;
+   padding-top: 20px;
+   font-weight: bold;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#stil .box-test h1{
+    color:white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#stil .boxes{
+    display: flex;
+    padding-top: 30px;
+}
+
+#stil .boxes .box{
+    width: 25%;
+    color:  white;
+    text-align: center;
+}
+
+#stil .boxes .box i{
+    padding: 20px;
+    background-color: white;
+    color:#1D809F;
+    border-radius: 50%;
+    font-weight: 20px;
+}
+
+#st .box-test{
+    padding: 15rem 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.1) 100%), url(./photoo/bg-callout.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#st .box-test h1{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+#st .box-test h2{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+}
+
+#st .box-test a{
+    margin-top: 45px;
+    display :inline-block;
+    padding: 20px 20px;
+    background-color: #1482a3;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.3s;
+    justify-content: center;
+    border: 10px;
+}
+
+#st .box-test a:hover{
+    background-color:  #259abe;
+    margin-top: 45px;
+}
+
+#ss .text {
+    padding: 30px 0;
+    text-align: center;
+}
+#ss .text h6{
+    color: #F1BA1F;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ss.text h1{
+    margin-top: 8px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#ss{
+    padding: 30px 0;
+}
+
+#ss .qutu{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+#ss .qutu .box{
+    width: 50%;
+    position: relative;
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+#ss .qutu .box .color-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 255, 0.537);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+#ss .qutu .box:hover .color-box{
+    opacity: 1;
+    visibility: visible;
+}
+
+#ss .qutu .box:hover{
+    transform: scale(0.9);
+}
+
+#ss .qutu .box img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+#ss .qutu .box .box-text{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    z-index: 5;
+}
+
+#blue{
+    padding: 10rem 0;
+    background-color: #1D809F;
+}
+
+#blue .box{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#blue .box .bt1 {
+    margin-top: 45px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    padding: 20px 15px;
+    font-size: 30px;
+    color: black;
+    border: 10px;
+    border-radius: 10px;
+    font-style: unset ;
+    transition: 0.5s;
+}
+#blue .box .bt1:hover{
+    background-color:rgba(183, 179, 179, 0.525);
+    margin-top: 35px;
+}
+
+#blue .box .bt2{
+    margin-top: 45px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    padding: 20px 15px;
+    font-size: 30px;
+    color: white;
+    border: 10px;
+    border-radius: 10px;
+    font-style: unset ;
+    transition: 0.5s;
+}
+
+#blue .box .bt2:hover{
+    background-color:rgb(67, 63, 63);
+    margin-top: 35px;
+}
+
+
+#mapp .map iframe{
+    height: 80vh;
+    width: 100%;
+}
+
+#son{
+    padding: 5rem 0;
+    background-color: white;
+}
+
+#son .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#son .boxes .box{
+    padding: 5rem 0;
+    color: #1D809F;
+}
+
+#son .boxes .box i{
+    padding: 20px;
+    background-color: #1D809F;
+    color:white;
+    border-radius: 50%;
+    font-weight: 20px;
+    font-size: 40px;
+    margin: 10px;
+}
+
+#son .box-text p{
+    text-align: center;
+    padding-top: 5px;
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
